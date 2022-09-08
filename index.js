@@ -19,6 +19,7 @@ const navBar = (
     }}>
         <i className="fa-solid fa-flag" style={{fontSize:"3rem",
         "color": "#00008B"}}></i>
+        <i class="fa-solid fa-envelope"></i>
         <h1>Website</h1>
         <button className="">Nav Button1</button>
         <button>Nav Button2</button>
@@ -27,4 +28,4 @@ const navBar = (
 )
 console.log(document.getElementById("root").append(JSON.stringify(navBar)));
 
-ReactDOM.render(page,document.getElementById("root"));
+ReactDOM.render(navBar,document.getElementById("root"));
